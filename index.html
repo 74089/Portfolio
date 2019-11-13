@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <title>Stef van der Burgt</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburger.css">
     <script src="js/main.js"></script>
+    <script src="js/hamburger.js"></script>
   </head>
   <body>
   <!-- <button onclick="test()">Test</button> -->
@@ -13,7 +15,11 @@
       <a onclick="smartScroll('About')">About</a>
       <a onclick="smartScroll('Projects')">Projects</a>
       <a onclick="smartScroll('Contact')">Contact</a>
-
+      <div class="containerHamburger" onclick="menuButton(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
     </div>
 
     <div class="intro" id="Intro"> <!-- ---------------------------------------------------------------------------------------------------- -->
