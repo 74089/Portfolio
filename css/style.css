@@ -37,11 +37,11 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  cursor: pointer;
+  cursor: default;
 }
 .header a:hover {
-  background: #646464;
-  color: #ffffff;
+  /* background: #646464;
+  color: #ffffff; */
 }
 
 .footer{
@@ -74,7 +74,27 @@ h1{
 }
 
 
-
+.wrapperStickyMenu{
+  position: fixed;
+  top: 6.5%;
+  height: 80%;
+  width: 100%;
+}
+div.stickyMenu {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  padding: 50px 0px 50px 0px;
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stickyMenu h2{
+  cursor: pointer;
+}
 
 
 
