@@ -4,6 +4,7 @@ function test() {
 function smartScroll(parameter) {
   var x = parameter;
   document.getElementById(x).scrollIntoView({ block: 'end',  behavior: 'smooth' });
+
   var x = document.getElementById("wrapperStickyMenu");
   if (x.style.display === "none") {
     x.style.display = "block";
