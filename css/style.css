@@ -22,6 +22,10 @@ body{
   background-color: #292929;
 }
 
+.name{
+  z-index: 10;
+}
+
 .header{
   overflow: hidden;
   background-color: #292929;
@@ -99,6 +103,9 @@ div.stickyMenu {
   cursor: pointer;
 }
 
+.carousel-control{
+  z-index: 11;
+}
 
 .wrapperCarousel{
 /* border-style: solid;
@@ -106,6 +113,7 @@ border-width: 10px;
 border-color: red; */
   overflow: hidden;
   margin: 50px 0px 0px 0px;
+  position: absolute;
 }
 
 .containerCarousel{
